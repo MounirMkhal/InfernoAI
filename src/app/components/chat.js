@@ -47,7 +47,7 @@ export function Chat() {
           display: "flex",
           flexDirection: "column",
           height: "100vh",
-          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1318109419585671249/1318371894306672680/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg?ex=67621501&is=6760c381&hm=247504ea86167013008bcbec2761614e44516d1d4c13041357fb5b0a169b3cdc&")',
+          backgroundImage: 'url("https://cdn.discordapp.com/attachments/1318109419585671249/1318371894306672680/3d-grunge-room-interior-with-spotlight-smoky-atmosphere-background.jpg?ex=6762bdc1&is=67616c41&hm=61947ea050c5d7c0b169d260c6a8fbf9fa92e32dfee8696a189b512f281b5197&")',
           backgroundSize: "fill",
           backgroundPosition: "center",
           fontFamily: 'Roboto, sans-serif',
@@ -67,7 +67,7 @@ export function Chat() {
               maxHeight: "100%",
             }}
           >
-            <Box sx={{ overflowY: "auto", px: 3, py: 2, flexGrow: 1, backgroundImage: 'url("https://cdn.discordapp.com/attachments/1318109419585671249/1318374907704512592/das-gigapixel-standard-scale-4_00x.png?ex=676217d0&is=6760c650&hm=210f426f9064ce0ec44df65d74be1e71a92b36dc134069605d1017f4fb2a0336&")', }}>
+            <Box sx={{ overflowY: "auto", px: 3, py: 2, flexGrow: 1, backgroundImage: 'url("https://cdn.discordapp.com/attachments/1318109419585671249/1318374907704512592/das-gigapixel-standard-scale-4_00x.png?ex=6762c090&is=67616f10&hm=427d0c12f40909069ba1640baf1793c24b7300dd803d8cd781150e2161e84a1d&")', }}>
               {combinedMessages.map((message, index) => {
                 const isUser = message.role === "user";
                 return (
